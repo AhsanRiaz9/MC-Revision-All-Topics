@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/layoutBtn"
         android:layout_width="409dp"
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
@@ -48,7 +48,7 @@
         android:layout_height="42dp"
         android:layout_marginTop="4dp"
         android:text="TextField"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBtn"
         tools:layout_editor_absoluteX="1dp" />
 
     <Button
@@ -95,7 +95,7 @@
         android:text="MC Revsion All Concepts"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
