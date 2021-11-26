@@ -9,15 +9,18 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button layoutBtn, inputFieldsBtn;
+    Button layoutBtn, inputFieldsBtn,intentBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         layoutBtn = findViewById(R.id.layoutBtn);
         inputFieldsBtn = findViewById(R.id.inputFieldsBtn);
+        intentBtn = findViewById(R.id.intentBtn);
         layoutBtn.setOnClickListener(this);
         inputFieldsBtn.setOnClickListener(this);
+        intentBtn.setOnClickListener(this);
+
     }
 
     @Override
@@ -34,6 +37,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {
                 Intent intent = new Intent(MainActivity.this,InputFieldsPractice.class);
                 intent.putExtra("name","Ahsan Riaz");
+                startActivity(intent);
+            }
+            break;
+            case R.id.intentBtn:
+            {
+                Intent intent = new Intent(MainActivity.this,Intent_Practice.class);
                 startActivity(intent);
             }
             break;

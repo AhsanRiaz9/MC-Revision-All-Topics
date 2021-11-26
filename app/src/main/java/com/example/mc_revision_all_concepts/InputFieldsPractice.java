@@ -34,11 +34,11 @@ public class InputFieldsPractice extends AppCompatActivity {
                 String user = username.getText().toString();
                 String psw = password.getText().toString();
                 if (user.equals("admin") && psw.equals("pakistan123")) {
-//                    AlertDialog.Builder builder = builder = new AlertDialog.Builder(InputFieldsPractice.this);
-//                    // Set the message show
-//                    builder.setMessage("Message you want to show");
-//                    // Set Alert Title
-//                    builder.setTitle("Alert !");
+                        AlertDialog.Builder builder = builder = new AlertDialog.Builder(InputFieldsPractice.this);
+                        // Set the message show
+                        builder.setMessage("Message you want to show");
+                        // Set Alert Title
+                        builder.setTitle("Alert !").show();
                     Toast.makeText(getApplicationContext(),"Login Successfull",Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(getApplicationContext(),"Login Failed", Toast.LENGTH_SHORT).show();

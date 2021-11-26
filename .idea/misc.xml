@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_input_fields_practice.xml" value="0.25" />
+        <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_intent_practice.xml" value="0.75" />
         <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_layout_practice.xml" value="0.25" />
-        <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Ahsan Riaz/AndroidStudioProjects/MC_Revision_All_Concepts/app/src/main/res/layout/activity_quaid_eazam_quotes.xml" value="0.25" />
       </map>
     </option>
   </component>
