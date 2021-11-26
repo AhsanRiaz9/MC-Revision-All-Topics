@@ -43,11 +43,11 @@
         tools:layout_editor_absoluteX="1dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/inputFieldsBtn"
         android:layout_width="409dp"
         android:layout_height="42dp"
         android:layout_marginTop="4dp"
-        android:text="TextField"
+        android:text="Input Text Fields"
         app:layout_constraintTop_toBottomOf="@+id/layoutBtn"
         tools:layout_editor_absoluteX="1dp" />
 
@@ -57,7 +57,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
         android:text="Checkbox and Radio"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/inputFieldsBtn"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
