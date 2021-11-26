@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_Revision_All_Concepts">
         <activity
+            android:name=".ListViewPractice"
+            android:exported="false" />
+        <activity
             android:name=".Quaid_E_Azam_Quotes"
             android:exported="false" />
         <activity
